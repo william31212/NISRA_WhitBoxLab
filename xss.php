@@ -1,3 +1,3 @@
 <?php
 $name = $_GET["name"];
-echo "Welcome".$name;
+echo "Welcome". htmlspecialchars($name);
